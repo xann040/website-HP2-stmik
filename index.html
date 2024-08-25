@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Xann</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+			<img src="assets/foto/stmik.jpg" alt="logo" class="logo-img" />
+			<h1 class="logo-title">H.P2 GEN-Z STMIK SZ ANJANI</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#ketentuan">KETENTUAN</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick = "redirgrup()">Gabung Grup</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">HELLO H.P2 GEN-Z STMIK SZ HERE!!</p>
+				<p class="description">SALAH SATU FORUM MAHASISWA STMIK ANJANI LOMBOK TIMUR.</p>
+				<img src="assets/foto/logo.jpg" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">INI HANYALAH FORUM BERCANDA</p>
+				<p class="description">DISINI ADALAH TEMPAT ORANG BERCANDA, LU SERIUS, MENDING OUT.</P>
+				<div class="mt-10">
+					<button class="btn-cta" onclick = "redirwhatsapp()">Chat admin</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="ketentuan">
+					<div class="card-item">
+						<img src="assets/icon website/wrench.png" alt="icon 1" class="icon"/>
+						<p class="title">Perbaiki bicara</p>
+						<p class="description">Bicara yang sopan karna kita berpendidikan</P>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon website/rating.png" alt="icon 2" class="icon"/>
+						<p class="title">Tidak ada ketua</p>
+						<p class="description">Kita semua adalah mahasiswa yang mencari ilmu</P>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon website/24-hours.png" alt="icon 3" class="icon"/>
+						<p class="title">Nongkrong nonstop</p>
+						<p class="description">Sering nongkrong sampai lupa waktu dan tugas.</P>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy sandi tri pratama 2024</p>
+		</footer>
+		
+		<script>
+			function redirwhatsapp() {
+				window.location.href = "https://wa.me/+6287752436859"
+			}
+			
+			function redirgrup() {
+				window.location.href = "https://chat.whatsapp.com/D5KEaRjFoi7JfJDK8v4aA4"
+			}
+		</script>
+	</body>
+</html>
